@@ -1,12 +1,11 @@
 __author__ = 'yash'
-
+ 
 import unittest
-from Experiment import Greeter
 
-class MyTestCase(unittest.TestCase):
-    def test_default_greeting_set(self):
-        greeter = Greeter()
-        self.assertEqual(greeter.message, 'Hello world!')
+class Testing(unittest.TestCase):
+    def test_boolean(self):
+        a = True
+        self.assertTrue(a)
 
 if __name__ == '__main__':
     unittest.main()
